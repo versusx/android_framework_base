@@ -473,6 +473,7 @@ public final class PowerManager {
     }
 
     /**
+<<<<<<< HEAD
      * Gets the minimum supported screen brightness setting for VR Mode.
      * @hide
      */
@@ -485,6 +486,36 @@ public final class PowerManager {
      * Gets the maximum supported screen brightness setting for VR Mode.
      * The screen may be allowed to become dimmer than this value but
      * this is the maximum value that can be set by the user.
+     * @hide
+     */
+    public int getMinimumButtonBrightnessSetting() {
+        return mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_buttonBrightnessSettingMinimum);
+    }
+
+    /**
+     * Gets the maximum supported button brightness setting.
+     * The screen may be allowed to become dimmer than this value but
+     * this is the maximum value that can be set by the user.
+     * @hide
+     */
+    public int getMaximumButtonBrightnessSetting() {
+        return mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_buttonBrightnessSettingMaximum);
+    }
+
+    /**
+     * Gets the default button brightness setting.
+     * @hide
+     */
+    public int getDefaultButtonBrightnessSetting() {
+        return mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_buttonBrightnessSettingDefault);
+    }    
+
+    /**
+     * Returns true if the twilight service should be used to adjust screen brightness
+     * policy.  This setting is experimental and disabled by default.
      * @hide
      */
     public int getMaximumScreenBrightnessForVrSetting() {
