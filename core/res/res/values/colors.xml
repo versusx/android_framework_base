@@ -44,21 +44,21 @@
     <color name="bright_foreground_light_disabled">#80000000</color>
     <color name="bright_foreground_dark_inverse">@android:color/bright_foreground_light</color>
     <color name="bright_foreground_light_inverse">@android:color/bright_foreground_dark</color>
-    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dim_foreground_dark">#ffbebebe</color>
     <color name="dim_foreground_dark_disabled">#80bebebe</color>
-    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_inverse">#ff323232</color>
     <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
-    <color name="hint_foreground_dark">#808080</color>
-    <color name="dim_foreground_light">#323232</color>
+    <color name="hint_foreground_dark">#ff808080</color>
+    <color name="dim_foreground_light">#ff323232</color>
     <color name="dim_foreground_light_disabled">#80323232</color>
-    <color name="dim_foreground_light_inverse">#bebebe</color>
+    <color name="dim_foreground_light_inverse">#ffbebebe</color>
     <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
-    <color name="hint_foreground_light">#808080</color>
+    <color name="hint_foreground_light">#ff808080</color>
     <color name="highlighted_text_dark">#9983CC39</color>
     <color name="highlighted_text_light">#9983CC39</color>
-    <color name="link_text_dark">#5c5cff</color>
-    <color name="link_text_light">#0000ee</color>
-    <color name="suggestion_highlight_text">#177bbd</color>
+    <color name="link_text_dark">#ff5c5cff</color>
+    <color name="link_text_light">#ff0000ee</color>
+    <color name="suggestion_highlight_text">#ff177bbd</color>
 
     <drawable name="stat_notify_sync_noanim">@drawable/stat_notify_sync_anim0</drawable>
     <drawable name="stat_sys_download_done">@drawable/stat_sys_download_done_static</drawable>
@@ -81,7 +81,7 @@
 
     <!-- For settings framework -->
     <color name="lighter_gray">#ddd</color>
-    <color name="darker_gray">#aaa</color>
+    <color name="darker_gray">#ffaaaaaa</color>
 
     <!-- For security permissions -->
     <color name="perms_dangerous_grp_color">#33b5e5</color>
